@@ -1,0 +1,33 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+*{
+	font-family: 'Comfortaa', cursive;
+}
+
+
+.imagenes {
+  padding: 0 70px; /*separacion del margen*/
+  margin-top: 40px;
+  column-width: 220px; /*altura de las columnas*/
+  column-count: 6; /*numero de columnas que de arana*/
+  column-gap: 20px; /*separacion entre imagenes*/
+  display: inline-block;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.imagenes div img {
+    width: auto;
+    height: auto;
+    margin-bottom: 8px;
+    border-radius: 16px;
+    max-width: 100%;
+    min-width: 204px;
+    max-height: 275px;
+    margin-left: 10px;
+}
